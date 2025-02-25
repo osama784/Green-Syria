@@ -1,0 +1,11 @@
+{
+    "[html]": {
+        "editor.formatOnSave": false
+    },
+    "terminal.integrated.commandsToSkipShell": [
+        "{\"tailwindCSS.includeLanguages\": {     \"html\": \"html\",     \"javascript\": \"javascript\",     \"css\": \"css\" }, \"editor.quickSuggestions\": {     \"strings\": true }}"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    }
+}
