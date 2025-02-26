@@ -8,6 +8,10 @@ import uiImage04 from "@/images/ui_image04.svg";
 import trash4 from "@/images/trash4.jpg";
 import trash2 from "@/images/trash2.jpg";
 import trash1 from "@/images/trash1.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSeedling, faTrashCanArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faCircleDown } from '@fortawesome/free-regular-svg-icons';
+
 export default function Home() {
   return (
     <>
@@ -57,7 +61,7 @@ export default function Home() {
           </p>
           <ul className="justify-self-center flex flex-col gap-8 mt-16 sm:text-lg">
             <li className="flex gap-3 items-center justify-end">
-              <i className="fa-regular fa-circle-down fa-2x"></i>
+            <FontAwesomeIcon icon={faCircleDown} size="2x" />
               <div className="space-y-1 -order-1">
                 <h2 className="font-semibold">تقليل النفايات</h2>
                 <p>
@@ -68,6 +72,7 @@ export default function Home() {
             </li>
             <li className="flex gap-3 items-center justify-end">
               <i className="fa-solid fa-seedling fa-2x"></i>
+              <FontAwesomeIcon icon={faSeedling} size="2x" />
               <div className="space-y-1 -order-1">
                 <h2 className="font-semibold ">حماية البيئة</h2>
                 <p>
@@ -77,7 +82,7 @@ export default function Home() {
               </div>
             </li>
             <li className="flex gap-3 items-center justify-end">
-              <i className="fa-solid fa-trash-can-arrow-up fa-2x"></i>
+            <FontAwesomeIcon  icon={faTrashCanArrowUp} size="2x" />
               <div className="space-y-1 -order-1">
                 <h2 className="font-semibold">توفير الموارد</h2>
                 <p>
